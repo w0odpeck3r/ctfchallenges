@@ -37,7 +37,7 @@ void youwin(){//0x080486b6
 
 void vuln(){
     char buf[40];
-    puts("give me you message :");
+    puts("give me your message :");
     read(0,buf,56);
 }
 
